@@ -1,0 +1,57 @@
+<HTML>
+<head>
+	<script src="test.js" ></script>
+	<script src="jquery.js"></script>
+	<script src="notify.js"></script>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" href="../../../css/center.css">
+	<link rel="stylesheet" href="../../../css/zebra.css">
+
+</head>
+<body>
+	<p>
+	<img src="../../../img/Logo/logo.JPG" alt="logo_bazart" width="300" height="300" class="center"/>
+</p>
+<form method="POST" action="ajoutLivreur.php">
+	
+	<div style=" height: 250px; padding-top: 70px; padding-left: 750px ;padding-right: 750px;">
+		<fieldset>
+<table class="zebra-tab td-ajout" style="height: 400px;" align="center">
+ <h2 style="color: #DF365F; padding-bottom: 30px;" align="center">Veuillez remplir les champs</h2>
+ 
+<tr>
+<td>CIN *</td>
+<td><input type="text" name="cin" id="cin"  onchange="validerCIN()" aria-required="true" aria-invalid="true" placeholder="votre CIN: (8 caracteres)" required pattern="[0-9]{8}" ></td>
+</tr>
+<tr>
+<td>Nom *</td>
+<td><input type="text" name="nom" id="nom" required>
+</td> 
+</tr>
+<tr>
+<td>Prenom *</td>
+<td><input type="text" name="prenom" required></td>
+</tr>
+<tr>
+<td>Destination </td>
+<td><input type="text" name="destination"></td>
+</tr>
+<tr>
+<td>Disponibilite *</td>
+<td><input type="text" name="dispo" id="dispo" maxlength="1" onchange="validerDispo()" required pattern="[0-1]{1}"></td>
+</tr>
+<tr>
+<td>Date de livraison</td>
+<td><input type="date" name="date_livraison"></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" name="ajouter" value="ajouter"></td>
+</tr>
+</fieldset>
+</table>
+</div>
+
+</form>
+</body>
+</HTMl>
