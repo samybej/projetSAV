@@ -1,0 +1,30 @@
+.name{
+width: 300px;
+border-radius: 15px;
+border-color: orange;
+height: 40px;
+}
+.Month{
+width: 140px;
+border-radius: 15px;
+border-color: orange;
+height: 40px;
+}
+.year{
+	width: 140px;
+border-radius: 15px;
+border-color: orange;
+height: 40px;
+}
+.code{
+	width: 300px;
+border-radius: 15px;
+border-color: orange;
+height: 40px;
+}
+.form{
+	position: relative;
+	top: 150px;
+	left: 500px;
+
+}

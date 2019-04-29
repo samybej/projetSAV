@@ -1,0 +1,20 @@
+.zebra-tab tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.hover-tab tr:hover {
+	background-color: #ffe6ff;
+}
+.td-ajout td {
+	font-size:25px;
+	font: small-caps bold 24px/1 sans-serif;
+}
+.td-affiche td {
+	font-size:15px;
+	font: small-caps bold 22px/1 sans-serif;
+}
+
+.tab-pink table {
+	border-collapse: collapse;
+	border:2px solid #ff80ff;
+}

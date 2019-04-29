@@ -1,0 +1,63 @@
+<?PHP 
+	include "../../core/config.php";
+?>
+<!DOCTYPE html>
+<HTML>
+<head>
+	<title>formulaire d'ajout</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="ajoutLivreur.js"></script>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" href="css/center.css">
+	<link rel="stylesheet" href="css/zebra.css">
+
+</head>
+<body>
+	<div style="background-color: #ffe6ff";>
+	<p>
+	<img src="img/Logo/logo.JPG" alt="logo_bazart" width="300" height="300" class="center"/>
+</p>
+</div>
+
+<div>
+<form method="POST" action="ajoutLivreur.php" onsubmit="return verif()">
+	
+	<div style=" height: 250px; padding-left: 750px ;padding-right: 750px;">
+		<fieldset>
+<table class="zebra-tab td-ajout" style="height: 400px;" align="center">
+ <h2 style="color: #DF365F; padding-bottom: 30px;" align="center">Veuillez remplir les champs</h2>
+ 
+<tr>
+<td>CIN *</td>
+<td><input type="text" name="cin" id="cin" placeholder="votre CIN: (8 caracteres)"></td>
+</tr>
+<tr>
+<td>Nom *</td>
+<td><input type="text" name="nom" id="nom">
+</td> 
+</tr>
+<tr>
+<td>Prenom *</td>
+<td><input type="text" name="prenom" id="prenom"></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="ajouter"></td>
+</tr>
+
+</table>
+</div>
+
+</form>
+<div id="alerte">
+	
+
+</div>
+
+<a href="../../../index-1.html"><p><strong>Retour</strong></p></a>
+
+
+</fieldset>
+</div>
+</body>
+</HTML>

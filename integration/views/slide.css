@@ -1,0 +1,66 @@
+
+.form-price-range-filter {
+	text-align: center;
+
+}
+
+
+.text-right {
+	text-align: right;
+}
+
+th.text-right {
+	text-align: right;
+}
+
+.btn-submit {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background: #FFF;
+	border: #aaa 1px solid;
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+
+#min {
+	float: left;
+	width: 50px;
+	padding: 5px 10px;
+	margin-right: 14px;
+	position: relative;
+	right: 25px;
+}
+
+#slider-range {
+	width: 65%;
+	float: left;
+	margin: 5px 0px 5px 0px;
+	position: relative;
+	right: 20px;
+	top: 7px;
+}
+
+#max {
+	float: right;
+	width: 50px;
+	padding: 5px 10px;
+	position: relative;
+	left: 23px;
+	top: -24px;
+}
+
+.no-result {
+	padding: 20px;
+	background: #ffdddd;
+	text-align: center;
+	border-top: #d2aeb0 1px solid;
+	color: #6f6e6e;
+}
+
+.product-thumb {
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
